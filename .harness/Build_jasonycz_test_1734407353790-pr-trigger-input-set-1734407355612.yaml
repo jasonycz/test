@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jasonycz_test_1734407353790-pr-trigger-input-set
+  identifier: Build_jasonycz_test_1734407353790prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jasonycz_test_1734407353790
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
