@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jasonycz_test_1734407353790-push-trigger-input-set
+  identifier: Build_jasonycz_test_1734407353790pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jasonycz_test_1734407353790
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
