@@ -35,4 +35,4 @@ pipeline:
         type: CI
         description: ""
         delegateSelectors:
-          - macos-arm64
+          - docker-delegate
